@@ -1,0 +1,23 @@
+header{
+    background: #0583F2;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.9em;
+    width: 100%;
+
+    div{
+        display: flex;
+        width: 40%;
+        align-items: center;
+        justify-content: space-evenly;
+
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 1.1em;
+        }
+    }
+    
+}

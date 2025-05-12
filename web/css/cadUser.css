@@ -1,0 +1,16 @@
+main{
+    align-items: left;
+
+    form{
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+        gap: 5px;
+        button{
+            background: #0583F2;
+            width: 50%;
+            border-radius: 3px;
+        }
+        width: 15%;
+    }
+}

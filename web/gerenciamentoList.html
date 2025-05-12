@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Tarefas</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/gerenList.css">
+</head>
+
+<body>
+    <header>
+        <h1>Gerenciamento de Tarefas</h1>
+        <div class="links">
+            <a href="cadastroUser.html">Cadastro de Usuários</a>
+            <a href="cadastroList.html">Cadastro de Tarefas</a>
+            <a href="gerenciamentoList.html">Gerenciar tarefas</a>
+        </div>
+    </header>
+    <main>
+        <h1>Tarefas</h1>
+        <table border="3">
+            <thead>
+                <tr>
+                    <th>A Fazer</th>
+                    <th>Fazendo</th>
+                    <th>Pronto</th>
+                </tr>
+            </thead>
+            <tbody id="a-fazer"></tbody>
+            <tbody id="fazendo"></tbody>
+            <tbody id="pronto"></tbody>
+        </table>
+    </main>
+    <script src="js/gerencList.js"></script>
+</body>
+</html>
