@@ -1,8 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-body{
+
+body {
     display: flex;
     flex-direction: column;
     max-height: 100%;
@@ -11,30 +13,45 @@ body{
 
 main {
     width: 100%;
+    padding: 20px;
+}
 
-    table {
-        width: 100%;
+.task-column {
+    margin-bottom: 20px;
+}
 
-        thead th:nth-child(1) {
-            width: 33%;
-        }
+.card {
+    border-radius: 5px;
+    width: 100%;
+    border: 3px solid black;
+    margin: 10px auto; /* Centraliza os cards */
+    padding: 10px;
+}
 
-        thead th:nth-child(2) {
-            width: 33%;
-        }
+.card h3 {
+    background: #0583F2;
+    color: white;
+    padding: 10px;
+}
 
-        thead th:nth-child(3) {
-            width: 33%;
-        }
+.card div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
 
-        div{
-            border-radius: 5px;
-            width: 50%;
-            border: 3px solid black;
-            h3{
-                background: #0583F2;
-            }
-        }
+button {
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 5px 10px;
+    background-color: #0583F2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
-    }
+button:hover {
+    background-color: #0466B9;
 }
